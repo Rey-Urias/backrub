@@ -70,7 +70,7 @@ Even though the words "cheese" and "butter" appear 3 times each in the sample st
 
 Code:
 
-- Would it be helpful to make it a case-insensitive search?
+- Would it be helpful to make a flag for case-insensitive search? (e.g., `findNeedles(String haystack, String[] needles, boolean case)`
 - Would it be helpful to include an index of where the word was found (I know this goes in a different direction and adds some complexity)
 - Is there a performance benefit if all needles were checked at once (e.g., instead of *Is the first word X? Is the second word X? Is the third word X?... Is the first word Y?...*   something like *Is the first word X or Y? Is the second word X or Y? Is the third word...*
 - Is there a benefit to a user-defined exception for the array size limit?, e.g.;
